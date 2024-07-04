@@ -2,7 +2,7 @@
 
 
 <h2>Project description</h2>
-In lab, I create an Active Directory home lab environment using Oracle Virtual Box. Configuring and running this lab will definitely help develop understanding of how active directory and windows networking works.
+The research team at my organization needs to update the file permissions for certain files and directories within the projects directory. The permissions do not currently reflect the level of authorization that should be given. Checking and updating these permissions will help keep their system secure. To complete this task, I performed the following tasks:
 <br/>
 
 
