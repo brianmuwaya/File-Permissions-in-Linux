@@ -47,6 +47,48 @@ For example, the file permissions for project_t.txt are -rw-rw-r--. Since the fi
 
 <br />
 <br />
+
+<p align="center">
+Change file permissions <br/>
+ The organization determined that other shouldn't have write access to any of their files. To comply with this, I referred to the file permissions that I previously returned. I determined project_k.txt must have the write access removed for other.
+
+The following code demonstrates how I used Linux commands to do this:
+ <br/>
+<img src="https://i.imgur.com/rzK40Su.png"/>
+
+The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. The chmod command changes the permissions on files and directories. The first argument indicates what permissions should be changed, and the second argument specifies the file or directory. In this example, I removed write permissions from other for the project_k.txt file. After this, I used ls -la to review the updates I made.
+
+
+<p align="center">
+Change file permissions on a hidden file <br/>
+ The research team at my organization recently archived project_x.txt. They do not want anyone to have write access to this project, but the user and group should have read access. 
+
+The following code demonstrates how I used Linux commands to change the permissions:
+ <br/>
+ 
+<img src="https://i.imgur.com/fT89Cw3.png"/>
+
+The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. I know .project_x.txt is a hidden file because it starts with a period (.). In this example, I removed write permissions from the user and group, and added read permissions to the group. I removed write permissions from the user with u-w. Then, I removed write permissions from the group with g-w, and added read permissions to the group with g+r. 
+
+
+<p align="center">
+Change directory permissions <br/>
+ My organization only wants the researcher2 user to have access to the drafts directory and its contents. This means that no one other than researcher2 should have execute permissions.
+
+The following code demonstrates how I used Linux commands to change the permissions:
+
+ <br/>
+<img src="https://i.imgur.com/brFLti4.png"/>
+
+The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. I previously determined that the group had execute permissions, so I used the chmod command to remove them. The researcher2 user already had execute permissions, so they did not need to be added.
+
+
+<p align="center">
+<h2>Summary</h2>
+ I changed multiple permissions to match the level of authorization my organization wanted for files and directories in the projects directory. The first step in this was using ls -la to check the permissions for the directory. This informed my decisions in the following steps. I then used the chmod command multiple times to change the permissions on files and directories. <br/>
+
+
+ 
 </p>
 
 
