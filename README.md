@@ -44,5 +44,6 @@ with other servers on the network. Security measures include SSL/TLS encrypted c
 # text in gray
 @@ text in purple (and bold)@@
 ```
---!>[Vulnerability assessment report exemplar.docx](https://github.com/user-attachments/files/17074269/Vulnerability.assessment.report.exemplar.docx)
+[Vulnerability Assessment Report.docx](https://github.com/user-attachments/files/17074310/Vulnerability.Assessment.Report.docx)
+
 
