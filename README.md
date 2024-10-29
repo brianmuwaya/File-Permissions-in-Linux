@@ -1,20 +1,10 @@
-<h1>File Permissions in Linux Lab</h1>
+<h1>File Permissions in Linux</h1>
 
 
 <h2>Project description</h2>
 The research team at my organization needs to update the file permissions for certain files and directories within the projects directory. The permissions do not currently reflect the level of authorization that should be given. Checking and updating these permissions will help keep their system secure. To complete this task, I performed the following tasks:
 <br/>
 
-
-<h2>Utilities Used</h2>
-
-- <b>Linux</b>
-
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b>
-
-- <b>Google Cloud</b>
 
 
 
@@ -49,9 +39,6 @@ For example, the file permissions for project_t.txt are -rw-rw-r--. Since the fi
 <b/>
 
 
-#################
-############
-###########
 
 <h2>Change file permissions</h2>
 
@@ -72,8 +59,6 @@ argument specifies the file or directory. In this example, I removed write permi
 for the project_k.txt file. After this, I used ls -la to review the updates I made.
 <b/>
 
-##############
-##########
 
 <h2>Change file permissions on a hidden file</h2>
 The research team at my organization recently archived project_x.txt. They do not want
@@ -95,8 +80,7 @@ Then, I removed write permissions from the group with g-w, and added read permis
 group with g+r.
 <b/>
 
-########
-########
+
 
 <h2>Change directory permissions</h2>
 My organization only wants the researcher2 user to have access to the drafts directory and
